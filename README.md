@@ -3,7 +3,7 @@
 ## 怎麼裝
 - **一鍵自動安裝**：在 PowerShell 執行 `.\install_env.ps1`，會依序自動檢查/安裝 Python 3、Ollama、模型拉取與 ngrok，並在適當時機暫停引導登入。
 - **手動安裝**：
-  - Python 3（可由微軟市集或官網安裝）
+  - Python 3（可由Microsoft市集或官網安裝）
   - Ollama（前往 [https://ollama.com](https://ollama.com) 下載安裝，裝完在終端機執行 `ollama pull gemma4:e2b`）
   - Ngrok（前往 [https://ngrok.com](https://ngrok.com) 下載免安裝檔，並執行 `ngrok config add-authtoken <你的Token>` 登入）
 
