@@ -1,0 +1,13 @@
+# Credentials & Secrets
+.env
+config.local.json
+secrets.json
+
+# Python
+__pycache__/
+*.pyc
+
+# System & OS
+.DS_Store
+Thumbs.db
+*.log
